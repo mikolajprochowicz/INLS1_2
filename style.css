@@ -19,7 +19,7 @@
         align-items: center;
     }
 
-     header a{
+     header a, section.faq a{
     background-color: rgb(88, 102, 233);
     border: 3px solid blue;
     text-decoration: none;
