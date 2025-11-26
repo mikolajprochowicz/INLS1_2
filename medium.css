@@ -1,0 +1,72 @@
+/* 768 px */
+
+/* napisz kod css, który zmieni układ sekcji miejsc do odwiedzenia na 2 kolumny i  dwa wiersze */
+
+
+div.places_to_see{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+div.single_place{
+
+    width:48%;
+
+}
+
+
+
+
+div.single_place img{
+
+    height:209px;
+    object-fit: cover;
+
+}
+
+
+section.newsletter{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+div.newsletter_box{
+
+    max-width: 728px;
+
+}
+
+
+
+
+
+div.singe_contact, div.single_comment{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    max-width: 728px;
+
+
+}
+div.contact, div.comments{
+
+    width:31%;
+    margin-bottom: 0;
+}
+
+
+section.map iframe{
+    width: 100%;
+    max-width: 728px;
+
+
+}
