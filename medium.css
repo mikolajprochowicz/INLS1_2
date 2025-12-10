@@ -63,6 +63,11 @@ div.contact, div.comments{
     margin-bottom: 0;
 }
 
+div.accordion{
+    width: 100%;
+    max-width: 728px;
+}
+
 
 section.map iframe{
     width: 100%;
